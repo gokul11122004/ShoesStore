@@ -1,0 +1,43 @@
+   * body,html{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+    header{
+       background-color: rgb(183, 251, 82);
+      
+       width: 100%;
+       
+    }
+    
+    .f1{
+      font-style: oblique;
+      color: black;
+    }
+    .f2{
+      color: black;
+    }
+     .a1 button{
+            background-color:black;
+            padding: 5px 5px;
+            cursor: pointer;
+           font-weight:bolder ;
+           color: white;
+        }
+
+        .a1 button :hover{
+            background-color: white;
+        }
+        .c1{
+          padding-left:300px;
+          
+        }
+        .par button{
+  background-color: black;
+  color: aliceblue; 
+} 
+.h6{
+  margin-left: 50px;
+}

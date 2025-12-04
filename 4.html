@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Hero Section</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .hero-section {
+      background-color: #6bc33a;
+      padding: 50px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-title {
+      font-size: 2.3rem;
+      font-weight: 700;
+      color: #0a291d;
+    }
+
+    .hero-text {
+      color: #1b3b30;
+      font-size: 1rem;
+    }
+
+    .btn-dark {
+      font-weight: 600;
+      padding: 12px 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row align-items-center">
+
+    <!-- TEXT LEFT -->
+    <div class="col-md-6 order-1 order-md-1 hero-section">
+      <h1 class="hero-title">Step into Style</h1>
+      <p class="hero-text mt-3">
+        Discover a world of fun and comfort. Our diverse range of footwear 
+        is designed to make every step enjoyable and stylish.
+      </p>
+      <button class="btn btn-dark mt-3">EXPLORE NOW</button>
+    </div>
+
+    <!-- IMAGE RIGHT -->
+    <div class="col-md-6 order-2 order-md-2 p-0">
+      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1400&auto=format&fit=crop&crop=faces" class="hero-img" alt="Child Image">
+    </div>
+
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
